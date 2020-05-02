@@ -1,0 +1,45 @@
+body{
+	background-color: rgba(100,1,1,.1);
+}
+
+select{
+	padding: 4px;
+}
+
+button{
+	display: block;
+
+	background-color:rgba(0,200,200,.7);
+	color: white;
+	font-size: 14px;
+	border-radius: 5px;
+
+	margin: 10px;
+	padding: 8px 20px;
+}
+
+button:hover{
+	background-color:rgba(0,200,200,1);
+	box-shadow:0px 0px 1px 1px 1px black;
+}
+
+
+label, select{
+	width: 50%;
+}
+
+#contenedor-sistema{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 60%;
+	margin: auto;
+}
+
+#contenedor-respuesta{
+	display: block;
+	width: 100%;
+	
+	background-color: red;
+}
